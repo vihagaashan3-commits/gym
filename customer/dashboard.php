@@ -83,7 +83,7 @@ $plan = $conn->query("
                     </span>
                 </p>
             </div>
-        <?php } else { ?>
+        <?php } else { ?>  
             <p>No active plan.</p>
             <a href="plans.php" class="btn primary-btn">Choose Plan</a>
         <?php } ?>
