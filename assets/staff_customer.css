@@ -1,0 +1,98 @@
+/* Layout */
+.main-content {
+    margin-left: 250px;
+    padding: 40px;
+    background: #f4f6f9;
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Header */
+.page-header h1 {
+    font-size: 28px;
+    color: #2c3e50;
+}
+
+.page-header p {
+    color: #777;
+    margin-bottom: 25px;
+}
+
+/* Card */
+.card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    margin-bottom: 25px;
+}
+
+/* Search Box */
+.search-box {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.search-box:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Table */
+.customers-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.customers-table th,
+.customers-table td {
+    padding: 15px;
+    text-align: left;
+}
+
+.customers-table th {
+    background: #2c3e50;
+    color: white;
+    font-weight: 600;
+}
+
+.customers-table tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.customers-table tr:hover {
+    background: #e9f2ff;
+    transition: 0.3s;
+}
+
+/* Member Cell */
+.member-cell {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Avatar Circle */
+.avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #007bff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .customers-table th,
+    .customers-table td {
+        font-size: 13px;
+        padding: 10px;
+    }
+}

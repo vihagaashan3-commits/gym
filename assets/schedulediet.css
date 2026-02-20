@@ -1,0 +1,67 @@
+.content {
+    max-width: 900px;
+    margin-left: 270px; /* space for sidebar */
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    color: #1f2937;
+    margin-bottom: 20px;
+}
+
+.bmi-calculator, .bmi-result {
+    background-color: #f3f4f6;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+}
+
+button.btn {
+    background-color: #3b82f6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+button.btn:hover {
+    background-color: #2563eb;
+}
+
+.plans-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.plan-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    font-weight: 500;
+}

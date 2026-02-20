@@ -1,0 +1,126 @@
+/* Page Layout */
+.main-content {
+    margin-left: 250px;
+    padding: 40px;
+    background: #f4f6f9;
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Header */
+.page-header h1 {
+    font-size: 28px;
+    color: #2c3e50;
+}
+
+.page-header p {
+    color: #777;
+    margin-bottom: 30px;
+}
+
+/* Card Design */
+.card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    margin-bottom: 30px;
+}
+
+.card h2 {
+    margin-bottom: 20px;
+    color: #34495e;
+}
+
+/* Form */
+.attendance-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.form-group {
+    flex: 1 1 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group select,
+.form-group input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    transition: 0.3s;
+}
+
+.form-group select:focus,
+.form-group input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Button */
+.btn-primary {
+    background: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    height: 45px;
+    align-self: flex-end;
+}
+
+.btn-primary:hover {
+    background: #0056b3;
+}
+
+/* Table */
+.attendance-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.attendance-table th,
+.attendance-table td {
+    padding: 12px;
+    text-align: left;
+}
+
+.attendance-table th {
+    background: #2c3e50;
+    color: white;
+}
+
+.attendance-table tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+.attendance-table tr:hover {
+    background: #e9f2ff;
+}
+
+/* Status Badge */
+.badge {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.badge.present {
+    background: #d4edda;
+    color: #155724;
+}
+
+.badge.absent {
+    background: #f8d7da;
+    color: #721c24;
+}

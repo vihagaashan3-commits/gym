@@ -1,0 +1,96 @@
+.content {
+    margin-left: 270px;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9fafb;
+}
+
+h1 {
+    margin-bottom: 25px;
+    color: #1f2937;
+}
+
+/* Summary Cards */
+.dashboard-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    color: #6b7280;
+}
+
+.card p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #111827;
+}
+
+.revenue-card {
+    background: linear-gradient(135deg,#10b981,#059669);
+    color: #fff;
+}
+
+.revenue-card p {
+    color: #fff;
+}
+
+/* Charts */
+.charts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.chart-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.05);
+}
+
+/* Recent Payments */
+.recent-section {
+    background: #fff;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.05);
+}
+
+.recent-section table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.recent-section th,
+.recent-section td {
+    padding: 12px;
+    border-bottom: 1px solid #e5e7eb;
+    text-align: left;
+}
+
+.recent-section th {
+    background-color: #f3f4f6;
+}
+
+.status.paid {
+    color: #10b981;
+    font-weight: bold;
+}
+
+.status.pending {
+    color: #f59e0b;
+    font-weight: bold;
+}
