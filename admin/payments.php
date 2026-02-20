@@ -28,7 +28,7 @@ JOIN plans pl ON p.plan_id = pl.id
     <table class="table">
         <thead>
             <tr>
-                <th>Customer</th>
+                <th>CustomeR</th>
                 <th>Email</th>
                 <th>Plan</th>
                 <th>Amount</th>
