@@ -1,6 +1,6 @@
 .bodyt{
     background: url('background.jpg');
-    background-size: cover;
+    background-size:flex: 1 1 auto;;
 }
 .content {
     max-width: 900px;
@@ -13,11 +13,10 @@ h1 {
     color: #ffffff;
     margin-bottom: 20px;
 }
-.h2{
-    color: #fff;
-}
+
 .bmi-calculator, .bmi-result {
     /*background-color: #f3f4f6;*/
+    color:#fff;
     padding: 20px;
     border-radius: 12px;
     margin-bottom: 20px;
