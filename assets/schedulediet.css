@@ -1,6 +1,6 @@
 .bodyt{
     background: url('background.jpg');
-    background-size:flex: 1 1 auto;;
+    background-size: cover;
 }
 .content {
     max-width: 900px;
