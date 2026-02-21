@@ -19,7 +19,7 @@ $role = $user['role'];
 
 <div class="sidebar">
     <div class="sidebar-header">
-        <h2>Gym Management</h2>
+        <h2>Titanium Fitness Suite</h2>
         <p><?php echo ucfirst($role); ?>: <?php echo $user['full_name']; ?></p>
     </div>
 
