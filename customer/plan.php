@@ -52,7 +52,7 @@ $plans = $conn->query("SELECT * FROM plans");
             <div class="plan-card">
                 <h3><?= $row['plan_name'] ?></h3>
                 <p><strong>Duration:</strong> <?= $row['duration'] ?> Months</p>
-                <p><strong>Price:</strong> $<?= $row['price'] ?></p>
+                <p><strong>Price:</strong> Rs <?= $row['price'] ?></p>
                 <form method="POST">
                     <input type="hidden" name="plan_id" value="<?= $row['id'] ?>">
                     <button name="choose_plan" class="btn primary-btn">Choose Plan</button>
