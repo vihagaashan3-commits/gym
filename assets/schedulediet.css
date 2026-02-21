@@ -10,10 +10,12 @@
 }
 
 h1 {
-    color: #1f2937;
+    color: #ffffff;
     margin-bottom: 20px;
 }
-
+.h2{
+    color: #fff;
+}
 .bmi-calculator, .bmi-result {
     /*background-color: #f3f4f6;*/
     padding: 20px;
