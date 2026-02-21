@@ -26,6 +26,7 @@ $schedules = $conn->query("SELECT ts.*, t.full_name FROM trainer_schedule ts JOI
 <?php include("../config/sidebar.php"); ?>
 <link rel="stylesheet" href="../assets/book_trainer.css">
 
+<body class="body">
 <div class="content">
 <h1>Book a Trainer</h1>
 
@@ -63,3 +64,4 @@ $schedules = $conn->query("SELECT ts.*, t.full_name FROM trainer_schedule ts JOI
 <?php } ?>
 </table>
 </div>
+</body>
