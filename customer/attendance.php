@@ -81,7 +81,7 @@ $percentAbsent  = $totalDays>0 ? round(($absent/$totalDays)*100) : 0;
 
     <!-- Calendar -->
     <div class="calendar-container">
-        <h3>Attendance Calendar</h3>
+        <h3 style="color:white">Attendance Calendar</h3>
         <div class="calendar-grid">
             <?php
             // Determine starting day of week

@@ -2,7 +2,8 @@
     margin-left: 260px;
     padding: 30px;
     font-family: 'Segoe UI', sans-serif;
-    background: #f5f7fa;
+    background: url("background.jpg");
+    background-size: cover;
     min-height: 100vh;
 }
 
@@ -14,7 +15,7 @@
 }
 .nav-btn {
     padding: 8px 15px;
-    background:#3468c1;
+    background:#007b79;
     color:#fff;
     text-decoration:none;
     border-radius:5px;
@@ -47,6 +48,10 @@
     border-radius:12px;
     box-shadow:0 4px 8px rgba(0,0,0,0.05);
     margin-bottom:30px;
+    background: rgba(255, 255, 255, 0.2); /* Transparent white */
+    backdrop-filter: blur(10px); /* Blur background behind */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 .calendar-grid {
     display:grid;
@@ -84,7 +89,14 @@
     background:#fff;
     padding:20px;
     border-radius:12px;
-    box-shadow:0 4px 8px rgba(0,0,0,0.05);
+    box-shadow:0 4px 8px rgba(0,0,0,0.05);background: rgba(255, 255, 255, 0.2); /* Transparent white */
+    backdrop-filter: blur(10px); /* Blur background behind */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+.chartline{
+    color:#fff
 }
 
 /* Modal */

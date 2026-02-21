@@ -40,7 +40,7 @@ $plans = $conn->query("SELECT * FROM plans");
 <?php include("../config/sidebar.php"); ?>
 <link rel="stylesheet" href="../assets/customer-plans.css">
 
-<div class="content">
+<div class="background">
     <h1>Available Plans</h1>
 
     <?php if(isset($msg)){ ?>
