@@ -42,7 +42,6 @@ $role = $user['role'];
 
         <?php } elseif($role == 'customer'){ ?>
             <a href="../customer/dashboard.php">Dashboard</a>
-
             <a href="../customer/attendance.php">My Attendance</a>
             <a href="../customer/plan.php">Payment Plans</a>
             <a href="../customer/schedulediet.php">Schedule/Diet</a>
