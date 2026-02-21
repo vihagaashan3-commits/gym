@@ -76,7 +76,7 @@ $plan = $conn->query("
             <div class="info-box">
                 <p><strong>Plan:</strong> <?php echo $plan['plan_name']; ?></p>
                 <p><strong>Duration:</strong> <?php echo $plan['duration']; ?> Months</p>
-                <p><strong>Price:</strong> $<?php echo $plan['price']; ?></p>
+                <p><strong>Price:</strong> Rs<?php echo $plan['price']; ?></p>
                 <p><strong>Status:</strong> 
                     <span class="<?php echo $plan['status']; ?>">
                         <?php echo ucfirst($plan['status']); ?>
