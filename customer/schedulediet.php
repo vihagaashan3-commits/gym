@@ -14,36 +14,37 @@ $user = $_SESSION['user'];
 <?php include("../config/sidebar.php"); ?>
 <link rel="stylesheet" href="../assets/schedulediet.css">
 
-<div class="content">
-    <h1>📝 Schedule & Diet Planner</h1>
-    
-    <div class="bmi-calculator">
-        <h2>BMI Calculator</h2>
-        <form id="bmiForm">
-            <div class="form-group">
-                <label for="weight">Weight (kg)</label>
-                <input type="number" id="weight" required>
-            </div>
-            <div class="form-group">
-                <label for="height">Height (cm)</label>
-                <input type="number" id="height" required>
-            </div>
-            <button type="submit" class="btn primary-btn">Calculate BMI</button>
-        </form>
+<body class="bodyt">
+    <div class="content">
+        <h1>📝 Schedule & Diet Planner</h1>
+        
+        <div class="bmi-calculator">
+            <h2>BMI Calculator</h2>
+            <form id="bmiForm">
+                <div class="form-group">
+                    <label for="weight">Weight (kg)</label>
+                    <input type="number" id="weight" required>
+                </div>
+                <div class="form-group">
+                    <label for="height">Height (cm)</label>
+                    <input type="number" id="height" required>
+                </div>
+                <button type="submit" class="btn primary-btn">Calculate BMI</button>
+            </form>
+        </div>
+
+        <div class="bmi-result" id="bmiResult" style="display:none;">
+            <h2>Your BMI: <span id="bmiValue"></span></h2>
+            <p>Status: <span id="bmiStatus"></span></p>
+
+            <h3>Suggested Workout Plan</h3>
+            <div id="workoutPlans" class="plans-grid"></div>
+
+            <h3>Suggested Diet Plan</h3>
+            <div id="dietPlans" class="plans-grid"></div>
+        </div>
     </div>
-
-    <div class="bmi-result" id="bmiResult" style="display:none;">
-        <h2>Your BMI: <span id="bmiValue"></span></h2>
-        <p>Status: <span id="bmiStatus"></span></p>
-
-        <h3>Suggested Workout Plan</h3>
-        <div id="workoutPlans" class="plans-grid"></div>
-
-        <h3>Suggested Diet Plan</h3>
-        <div id="dietPlans" class="plans-grid"></div>
-    </div>
-</div>
-
+</body>
 <script>
 const workoutOptions = {
     "underweight": [

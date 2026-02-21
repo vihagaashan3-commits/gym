@@ -1,10 +1,12 @@
+.bodyt{
+    background: url('background.jpg');
+    background-size: cover;
+}
 .content {
     max-width: 900px;
     margin-left: 270px; /* space for sidebar */
     padding: 20px;
     font-family: 'Poppins', sans-serif;
-    background: url('background.jpg');
-    background-size: cover;
 }
 
 h1 {

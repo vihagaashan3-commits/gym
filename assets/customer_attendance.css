@@ -45,7 +45,12 @@
     -webkit-backdrop-filter: blur(10px); /* Safari support */
     border: 1px solid rgba(255, 255, 255, 0.3);
  }
-.absent-card  { background-color:#ef4444; }
+.absent-card  { 
+    background: #ef4444a7; /* Transparent white */
+    backdrop-filter: blur(10px); /* Blur background behind */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
 
 .calendar-container {
     background:#fff;
