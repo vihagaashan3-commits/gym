@@ -1,6 +1,7 @@
 .body{
     background: url("background.jpg");
-    /*background-size: cov;*/
+    background-size: cover;
+    flex-wrap: wrap;
 }
 .content {
     margin-left: 260px;
