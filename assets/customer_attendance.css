@@ -34,12 +34,17 @@
     flex:1;
     padding:20px;
     border-radius:12px;
-    color:#fff;
+    color:#ffffff;
     font-size:20px;
     font-weight:bold;
     text-align:center;
 }
-.present-card { background-color:#10b981; }
+.present-card { 
+    background: #10b981a7; /* Transparent white */
+    backdrop-filter: blur(10px); /* Blur background behind */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+ }
 .absent-card  { background-color:#ef4444; }
 
 .calendar-container {

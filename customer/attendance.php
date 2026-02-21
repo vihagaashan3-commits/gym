@@ -52,7 +52,7 @@ $percentAbsent  = $totalDays>0 ? round(($absent/$totalDays)*100) : 0;
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 <div class="content">
-    <h1>My Attendance</h1>
+    <h1 style="color:white;">My Attendance</h1>
 
     <!-- Month Navigation -->
     <div class="month-nav">
@@ -63,7 +63,7 @@ $percentAbsent  = $totalDays>0 ? round(($absent/$totalDays)*100) : 0;
         $nextYear  = $month+1 > 12 ? $year+1 : $year;
         ?>
         <a href="?month=<?= $prevMonth ?>&year=<?= $prevYear ?>" class="nav-btn">&lt; Prev</a>
-        <span class="current-month"><?= date('F Y', strtotime("$year-$month-01")) ?></span>
+        <span class="current-month" style="color:white"><?= date('F Y', strtotime("$year-$month-01")) ?></span>
         <a href="?month=<?= $nextMonth ?>&year=<?= $nextYear ?>" class="nav-btn">Next &gt;</a>
     </div>
 
