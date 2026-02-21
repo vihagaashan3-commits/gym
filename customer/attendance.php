@@ -51,7 +51,8 @@ $percentAbsent  = $totalDays>0 ? round(($absent/$totalDays)*100) : 0;
 <link rel="stylesheet" href="../assets/customer_attendance.css">
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-<div class="content">
+<body class="body">
+    <div class="content">
     <h1 style="color:white;">My Attendance</h1>
 
     <!-- Month Navigation -->
@@ -121,6 +122,7 @@ $percentAbsent  = $totalDays>0 ? round(($absent/$totalDays)*100) : 0;
         <p id="modal-status"></p>
     </div>
 </div>
+</body>
 
 <script>
 // Doughnut Chart
